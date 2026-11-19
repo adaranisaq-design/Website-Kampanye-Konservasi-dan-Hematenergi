@@ -1,0 +1,33 @@
+{
+  "penggunaanLampu": {
+    "labels": [
+      "Selalu mematikan",
+      "Kadang lupa",
+      "Jarang mematikan"
+    ],
+    "values": [18, 7, 3]
+  },
+  "tindakanHematEnergi": {
+    "labels": [
+      "Mematikan lampu",
+      "Mematikan kipas/AC",
+      "Cabut perangkat",
+      "Manfaatkan cahaya alami"
+    ],
+    "values": [28, 22, 15, 20]
+  },
+  "fakta": [
+    {
+      "nilai": "64%",
+      "teks": "Responden selalu mematikan lampu"
+    },
+    {
+      "nilai": "28",
+      "teks": "Memilih mematikan lampu sebagai tindakan utama"
+    },
+    {
+      "nilai": "25%",
+      "teks": "Responden masih sering lupa mematikan lampu"
+    }
+  ]
+}

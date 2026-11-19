@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EnergiBijak | Kampanye Hemat Energi</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#beranda" class="logo">
+                <span class="logo-icon">☀</span>
+                <span>Energi<span class="green">Bijak</span></span>
+            </a>
+
+            <button class="menu-btn" id="menuBtn" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="navMenu">☰</button>
+
+            <nav id="navMenu">
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#tujuan">Tujuan</a>
+                <a href="#aksi">Aksi</a>
+                <a href="#data">Data</a>
+                <a href="#rekomendasi">Rekomendasi</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="beranda">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <p class="label">🌱 KAMPANYE HEMAT ENERGI DI SEKOLAH</p>
+
+                    <h1>
+                        Gunakan Energi
+                        <span>Secukupnya,</span>
+                        Jaga Bumi Bersama.
+                    </h1>
+
+                    <p class="description">
+                        Kebiasaan kecil seperti mematikan lampu, kipas,
+                        dan perangkat elektronik saat tidak digunakan
+                        dapat menjadi langkah sederhana untuk menciptakan
+                        lingkungan sekolah yang lebih hemat energi.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#aksi" class="btn primary">
+                            Mulai dari Sekarang →
+                        </a>
+
+                        <a href="#tentang" class="btn secondary">
+                            Kenapa Penting?
+                        </a>
+                    </div>
+
+                    <div class="stats">
+
+                        <div>
+                            <strong>1</strong>
+                            <small>Kebiasaan baik</small>
+                        </div>
+
+                        <div>
+                            <strong>+</strong>
+                            <small>Dampak positif</small>
+                        </div>
+
+                        <div>
+                            <strong>🌎</strong>
+                            <small>Untuk bumi</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ILUSTRASI -->
+                <div class="hero-image">
+
+                    <div class="sun"></div>
+
+                    <div class="cloud cloud1"></div>
+                    <div class="cloud cloud2"></div>
+
+                    <div class="bulb-container">
+                        <div class="bulb">💡</div>
+                    </div>
+
+                    <div class="energy-card">
+                        <span>⚡</span>
+
+                        <div>
+                            <strong>Hemat Energi</strong>
+                            <small>Mulai dari hal kecil</small>
+                        </div>
+                    </div>
+
+                    <div class="leaf leaf1">🍃</div>
+                    <div class="leaf leaf2">🌿</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TENTANG ================= -->
+        <section class="section" id="tentang">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p class="label">TENTANG KAMPANYE</p>
+
+                    <h2>
+                        Kenapa kita perlu
+                        <span>hemat energi?</span>
+                    </h2>
+
+                    <p>
+                        Energi dibutuhkan untuk berbagai aktivitas di sekolah.
+                        Namun, penggunaan energi yang tidak bijak dapat menyebabkan
+                        pemborosan sumber daya dan meningkatkan dampak lingkungan.
+                    </p>
+
+                </div>
+
+
+                <div class="cards">
+
+                    <div class="card">
+
+                        <div class="card-icon green-bg">
+                            💡
+                        </div>
+
+                        <h3>Kurangi Pemborosan</h3>
+
+                        <p>
+                            Matikan lampu dan peralatan elektronik ketika
+                            ruangan sudah tidak digunakan.
+                        </p>
+
+                    </div>
+
+
+                    <div class="card">
+
+                        <div class="card-icon yellow-bg">
+                            🌍
+                        </div>
+
+                        <h3>Peduli Lingkungan</h3>
+
+                        <p>
+                            Menggunakan energi secara bijak membantu menjaga
+                            lingkungan agar tetap lestari.
+                        </p>
+
+                    </div>
+
+
+                    <div class="card">
+
+                        <div class="card-icon blue-bg">
+                            🏫
+                        </div>
+
+                        <h3>Mulai dari Sekolah</h3>
+
+                        <p>
+                            Sekolah merupakan tempat yang tepat untuk membangun
+                            kebiasaan hemat energi bersama-sama.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TUJUAN ================= -->
+        <section class="section soft" id="tujuan">
+
+            <div class="container tujuan">
+
+                <div class="tujuan-text">
+
+                    <p class="label">TUJUAN KAMPANYE</p>
+
+                    <h2>
+                        Membangun kebiasaan,
+                        bukan sekadar
+                        <span>membaca informasi.</span>
+                    </h2>
+
+                    <p class="lead">
+                        Website ini dibuat sebagai media kampanye untuk
+                        mengajak siswa, guru, dan staf sekolah agar lebih
+                        peduli terhadap penggunaan energi.
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            <span>✓</span>
+                            Menumbuhkan kesadaran tentang penggunaan energi.
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Mengajak warga sekolah mengurangi penggunaan energi
+                            yang tidak diperlukan.
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Mendorong kebiasaan hemat energi setiap hari.
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Menggunakan data sebagai bukti pendukung kampanye.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="quote-box">
+
+                    <div class="number">
+                        01
+                    </div>
+
+                    <div class="quote-icon">
+                        🌱
+                    </div>
+
+                    <h3>
+                        "Satu tindakan kecil hari ini dapat menjadi
+                        kebiasaan baik untuk hari-hari berikutnya."
+                    </h3>
+
+                    <p>
+                        Hemat energi bukan berarti berhenti menggunakan energi,
+                        tetapi menggunakannya sesuai kebutuhan.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= AKSI ================= -->
+        <section class="section" id="aksi">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p class="label">AKSI SEDERHANA</p>
+
+                    <h2>
+                        Yuk, mulai dari
+                        <span>hal kecil!</span>
+                    </h2>
+
+                    <p>
+                        Beberapa kebiasaan yang bisa dilakukan warga sekolah
+                        setiap hari.
+                    </p>
+
+                </div>
+
+
+                <div class="actions">
+
+                    <div class="action">
+
+                        <div class="action-icon">
+                            💡
+                        </div>
+
+                        <div>
+                            <h3>Matikan lampu</h3>
+
+                            <p>
+                                Matikan lampu ketika ruangan kosong
+                                atau cahaya alami sudah cukup.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="action">
+
+                        <div class="action-icon">
+                            🌀
+                        </div>
+
+                        <div>
+                            <h3>Matikan kipas/AC</h3>
+
+                            <p>
+                                Jangan biarkan perangkat menyala
+                                tanpa kebutuhan.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="action">
+
+                        <div class="action-icon">
+                            🔌
+                        </div>
+
+                        <div>
+                            <h3>Cabut perangkat</h3>
+
+                            <p>
+                                Periksa perangkat yang sudah selesai
+                                digunakan.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="action">
+
+                        <div class="action-icon">
+                            ☀️
+                        </div>
+
+                        <div>
+                            <h3>Manfaatkan cahaya alami</h3>
+
+                            <p>
+                                Gunakan cahaya matahari jika kondisi
+                                memungkinkan.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DATA ================= -->
+        <section class="data-section" id="data">
+
+            <div class="container">
+
+                <div class="data-box">
+
+                    <div>
+
+                        <p class="label">
+                            SELANJUTNYA
+                        </p>
+
+                        <h2>
+                            Seberapa hemat energi
+                            sekolah kita?
+                        </h2>
+
+                        <p>
+                            Temuan hasil angket dan observasi warga sekolah
+                            ditampilkan dalam bentuk grafik dan fakta singkat.
+                        </p>
+
+                    </div>
+
+                    <a href="#data-fakta" class="btn white">
+                        Lihat Data →
+                    </a>
+
+                </div>
+
+                <div id="data-fakta" class="data-fakta">
+                    <div class="section-title">
+                        <p class="label">DATA &amp; FAKTA</p>
+                        <h2>
+                            Kondisi penggunaan energi
+                            <span>di sekolah</span>
+                        </h2>
+                        <p>Berdasarkan hasil angket dan observasi siswa.</p>
+                    </div>
+
+                    <div class="facts-grid">
+                        <article class="fact-card">
+                            <h3>Penggunaan Lampu</h3>
+                            <canvas id="lampChart" aria-label="Grafik penggunaan lampu"></canvas>
+                        </article>
+
+                        <article class="fact-card">
+                            <h3>Sumber Hemat Energi</h3>
+                            <canvas id="actionChart" aria-label="Grafik tindakan hemat energi"></canvas>
+                        </article>
+                    </div>
+
+                    <div id="factSummary" class="fact-summary" aria-live="polite"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= REKOMENDASI ================= -->
+        <section class="section recommendation-section" id="rekomendasi">
+            <div class="container">
+                <div class="section-title">
+                    <p class="label">FASE 3 · REKOMENDASI &amp; AJAKAN AKSI</p>
+                    <h2>
+                        Dari temuan menuju
+                        <span>tindakan nyata</span>
+                    </h2>
+                    <p>
+                        Berdasarkan data penggunaan energi, berikut langkah yang dapat
+                        dilakukan warga sekolah untuk memperbaiki kebiasaan hemat energi.
+                    </p>
+                </div>
+
+                <div id="recommendationGrid" class="recommendation-grid" aria-live="polite">
+                    <article class="recommendation-card">
+                        <span class="recommendation-number">01</span>
+                        <h3>Tingkatkan pengawasan kebiasaan</h3>
+                        <p>Pastikan lampu dan perangkat dimatikan saat ruangan kosong.</p>
+                    </article>
+                    <article class="recommendation-card">
+                        <span class="recommendation-number">02</span>
+                        <h3>Ajak seluruh warga sekolah</h3>
+                        <p>Guru dan siswa dapat saling mengingatkan melalui aksi harian sederhana.</p>
+                    </article>
+                    <article class="recommendation-card">
+                        <span class="recommendation-number">03</span>
+                        <h3>Gunakan cahaya alami</h3>
+                        <p>Manfaatkan sinar matahari untuk mengurangi penggunaan lampu siang hari.</p>
+                    </article>
+                </div>
+
+                <div class="recommendation-cta">
+                    <div>
+                        <p class="label">AJAKAN UNTUK WARGA SEKOLAH</p>
+                        <h3>Mulai perubahan dari satu tindakan hari ini.</h3>
+                        <p>
+                            Website ini menampilkan hasil observasi, menunjukkan kebiasaan
+                            yang perlu diperbaiki, dan mengajak setiap orang mulai bertindak.
+                        </p>
+                    </div>
+                    <a href="#aksi" class="btn primary">Lihat aksi sederhana →</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#beranda" class="logo footer-logo">
+                    <span class="logo-icon">☀</span>
+                    <span>Energi<span class="green">Bijak</span></span>
+                </a>
+
+                <p>
+                    Kampanye sederhana untuk membangun kebiasaan
+                    hemat energi di lingkungan sekolah.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Identitas Pembuat</h3>
+
+                <p>
+                    <b>Kelompok:</b> Kelompok 1
+                </p>
+
+                <p>
+                    <b>Kelas/Jurusan:</b>
+                    PPLG XI-1
+                </p>
+
+                <p>
+                    <b>Mata Pelajaran:</b>
+                    Produktif & 
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Menu</h3>
+
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#tujuan">Tujuan</a>
+                <a href="#aksi">Aksi</a>
+                <a href="#data">Data</a>
+                <a href="#rekomendasi">Rekomendasi</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+            © 2026 EnergiBijak — Kampanye Hemat Energi di Sekolah
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
